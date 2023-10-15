@@ -1,27 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300&family=Mohave&family=Saira+Condensed&family=Zilla+Slab&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer base {
+  h2, h4,  h5, h6 {
+    font-family: 'Frank Ruhl Libre', serif;
+  }
+
+  header, p{
+    font-family: 'Mohave', sans-serif;
+  }
+
+  h1, h3, a, button, span{
+    font-family: 'Saira Condensed', sans-serif;
+  }
+
+  .flexBox {
+    @apply flex items-center justify-between;
+  }
+  .flexCol {
+    @apply flex items-center flex-col gap-y-6;
+  }
+  .flexRow {
+    @apply flex items-center gap-x-6;
+  }
+  .primaryBtn {
+    @apply border rounded-lg py-2 px-4;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.bounce{
+    animation: movement 3s infinite 1s ease-in-out;
+}
+@keyframes movement{
+    0%{
+        transform: translateY(0);
+    }
+    60%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(20px);
+    }
 }
