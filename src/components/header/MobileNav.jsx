@@ -5,12 +5,10 @@ import { AiOutlineClose } from "react-icons/ai";
 import { navigate } from "../../assets/navigation";
 import { VscChevronRight } from "react-icons/vsc";
 import Link from "next/link";
-import { IconButton } from "@mui/material";
 import { motion } from "framer-motion";
 
 const MobileNav = () => {
   const [openNav, setOpenNav] = useState(false);
-
 
   const ulVariants = {
     hidden: {
@@ -43,21 +41,19 @@ const MobileNav = () => {
         } fixed top-16 grid w-full text-background transition-all duration-500 bg-white `}
       >
         {navigate.map((navLink) => (
-            <li key={navLink.id} className="text-xl font-semibold cursor-pointer">
-              <Link
-                href={navLink.path}
-                onClick={() => setOpenNav(false)}
-                className="flex items-center justify-between w-full px-4 py-3 text-base uppercase border-t border-b sm:text-lg"
-              >
-                <span className=" hover:underline">{navLink.display}</span>{" "}
-                <span>
-                  <IconButton>
-                    <VscChevronRight />
-                  </IconButton>
-                </span>
-              </Link>
-            </li>
-          ))}
+          <li key={navLink.id} className="text-xl font-semibold cursor-pointer">
+            <Link
+              href={navLink.path}
+              onClick={() => setOpenNav(false)}
+              className="flex items-center justify-between w-full px-4 py-3 text-base uppercase border-t border-b sm:text-lg"
+            >
+              <span className=" hover:underline">{navLink.display}</span>{" "}
+              <span>
+                <VscChevronRight />
+              </span>
+            </Link>
+          </li>
+        ))}
       </motion.ul>
     </div>
   );
