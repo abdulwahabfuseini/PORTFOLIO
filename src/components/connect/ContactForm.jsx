@@ -68,6 +68,7 @@ const ContactForm = () => {
             placeholder="Enter Full Name"
             name="name"
             onChange={handleChange}
+            style={{background: "white"}}
             className="w-full h-12 text-lg cursor-pointer border-neutral-400"
             type="text"
           />
@@ -88,6 +89,7 @@ const ContactForm = () => {
             placeholder="Enter your Email"
             name="email"
             onChange={handleChange}
+            style={{background: "white"}}
             className="h-12 w-full text-lg cursor-pointer border-neutral-400"
           />
         </Form.Item>
@@ -106,7 +108,8 @@ const ContactForm = () => {
             placeholder="Enter Phone Number"
             name="phoneNumber"
             onChange={handleChange}
-            className="h-12 w-full py-2 text-lg cursor-pointer border-neutral-400 "
+            style={{background: "white"}}
+            className="h-12 w-full py-2 text-lg cursor-pointer border-neutral-400"
           />
         </Form.Item>
         <Form.Item
@@ -123,13 +126,14 @@ const ContactForm = () => {
             placeholder="Enter Message"
             name="message"
             onChange={handleChange}
+            style={{background: "white"}}
             className="py-2 text-lg w-full cursor-pointer border-neutral-400"
           />
         </Form.Item>
         <Button
           htmlType="submit"
           type="primary"
-          className="h-12 w-full my-4 text-lg bg-blue-800 cursor-pointer"
+          className="h-12 w-full my-4 text-xl bg-blue-800 cursor-pointer"
         >
           {loading ? "Sending..." : "Send Message"}
         </Button>

@@ -41,13 +41,13 @@ const MobileNav = () => {
         } fixed top-16 grid w-full text-background transition-all duration-500 bg-white `}
       >
         {navigate.map((navLink) => (
-          <li key={navLink.id} className="text-xl font-semibold cursor-pointer">
+          <li key={navLink.id} className="font-semibold cursor-pointer">
             <Link
               href={navLink.path}
               onClick={() => setOpenNav(false)}
               className="flex items-center justify-between w-full px-4 py-3 text-base uppercase border-t border-b sm:text-lg"
             >
-              <span className=" hover:underline">{navLink.display}</span>{" "}
+              <span className=" hover:underline text-xl">{navLink.display}</span>{" "}
               <span>
                 <VscChevronRight />
               </span>

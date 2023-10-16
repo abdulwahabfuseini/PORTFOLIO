@@ -16,9 +16,9 @@ const ServiceCard = ({ item }) => {
           className="object-contain h-20 "
           draggable="false"
         />
-        <h1 className="py-5 text-lg sm:text-2xl">{item.title}</h1>
+        <h1 className="py-5 text-2xl">{item.title}</h1>
         <Typography.Paragraph
-          className="text-lg sm:text-xl text-white break-word"
+          className="text-xl text-white break-word"
           ellipsis={{
             rows: 3,
             expandable: true,
