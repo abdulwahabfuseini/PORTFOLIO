@@ -18,7 +18,7 @@ const ServiceCard = ({ item }) => {
         />
         <h1 className="py-5 text-lg sm:text-2xl">{item.title}</h1>
         <Typography.Paragraph
-          className="text-lg sm:text-xl text-white break-all"
+          className="text-lg sm:text-xl text-white break-word"
           ellipsis={{
             rows: 3,
             expandable: true,

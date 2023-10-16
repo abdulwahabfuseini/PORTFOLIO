@@ -3,7 +3,7 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import Footer from "@/components/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+
 
 export const metadata = {
   title: "Portfolio | Fuseini Abdul Wahab",
@@ -21,6 +21,3 @@ export default function RootLayout({ children }) {
   );
 }
 
-
-
-{/* <body className={`${inter.className} text-white bg-black w-full h-full`}> */}

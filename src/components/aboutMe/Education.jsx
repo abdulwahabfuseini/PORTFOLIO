@@ -14,7 +14,7 @@ const Education = () => {
             key={education.id}
             className="grid gap-y-2  border-2 p-1 sm:p-2 rounded-xl"
           >
-            <div className="flex items-center  gap-x-3 sm:gap-x-6">
+            <div className="flex items-center  gap-x-4 sm:gap-x-6">
               <Image
                 src="/SVG/calendar.png"
                 alt=""
@@ -22,7 +22,7 @@ const Education = () => {
                 height={30}
                 draggable="false"
               />
-              <p className="sm:text-lg">{education.year}</p>
+              <p className="text-lg">{education.year}</p>
             </div>
             <div className="flex items-center  gap-x-3 sm:gap-x-6">
               <Image
@@ -32,7 +32,7 @@ const Education = () => {
                 height={30}
                 draggable="false"
               />
-              <p className="sm:text-lg">{education.institution}</p>
+              <p className="text-lg">{education.institution}</p>
             </div>
             <div className="flex items-center gap-x-3 sm:gap-x-6">
               <Image
@@ -42,7 +42,7 @@ const Education = () => {
                 height={30}
                 draggable="false"
               />
-              <p className="sm:text-lg">{education.certicate}</p>
+              <p className="text-lg">{education.certicate}</p>
             </div>
           </div>
         ))}

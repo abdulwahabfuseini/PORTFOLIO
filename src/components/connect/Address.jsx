@@ -17,14 +17,14 @@ const Address = () => {
         </div>
         <div className="p-3 border-2 rounded-lg">
           <h1 className="text-xl sm:text-2xl">Phone Number</h1>
-          <div className="flex flex-wrap py-3 gap-x-6 gap-y-4 sm:text-xl">
+          <div className="flex flex-wrap py-3 gap-x-6 gap-y-4 text-xl">
             <a href="tel:+233 24 526 4999"> +233 24 526 4999</a>
             <a href="tel:+233 27 798 4606">+233 27 798 4606</a>
           </div>
         </div>
         <div className="p-3 border-2 rounded-lg">
           <h1 className="text-xl sm:text-2xl">E-Mail Address</h1>
-          <div className="grid py-3 sm:text-xl">
+          <div className="grid py-3 text-xl leading-10">
             <a href="mailto:abdulwahabfuseini78@gmail.com">
               abdulwahabfuseini78@gmail.com
             </a>

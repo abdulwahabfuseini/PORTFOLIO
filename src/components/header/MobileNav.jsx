@@ -17,8 +17,8 @@ const MobileNav = () => {
     visible: {
       opacity: 1,
       transition: {
-        delay: 0.5,
-        dumping: 60,
+        delay: 0.2,
+       
       },
     },
   };

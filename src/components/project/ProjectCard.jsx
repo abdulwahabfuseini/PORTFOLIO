@@ -15,7 +15,7 @@ const ProjectCard = ({ project }) => {
       />
       <div className="p-3 bg-background">
         <h1 className="py-2 text-xl text-center sm:text-2xl">{project?.projectName}</h1>
-        <p className="text-lg break-all">{project?.desc}</p>
+        <p className="text-lg break-word">{project?.desc}</p>
       </div>
       <div className="absolute top-0 left-0 right-0 hidden w-full h-full py-20 group-hover:block bg-background bg-opacity-90">
         <a href={project?.link} target="_blank" rel="noopener noreferrer"className="grid gap-4 place-items-center">
