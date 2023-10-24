@@ -28,9 +28,9 @@ export const service = [
         id: 3,
         icon: "web.png",
         title: "Animation  and Interactive",
-        desc: "Web animation enhances websites through motion effects. Types include CSS, JavaScript, SVG, and WebGL. It serves to engage users convey stories, provide feedback, and boost brand identity.",
-        desc1: "Web animation enhances websites through motion effects. Types include CSS, JavaScript, SVG, and WebGL. It serves to engage users, convey stories, provide feedback, and boost brand identity. Optimize for performance and accessibility, staying updated with design trends. Test and gather feedback for a compelling and memorable user experience.",
-        desc2: "Web animation is a creative and dynamic aspect of web design and development, adding life and interactivity to websites. When used thoughtfully and judiciously, it can significantly enhance the user experience and leave a memorable impression. To prioritizes the user experience, performance optimization, and SEO benefits. It caters to the multi-device world we live in, ensuring your portfolio is accessible and engaging to a wide audience, from desktop users to mobile visitors."
+        desc: " As a frontend developer, I harness animations to create captivating, informative, and delightful online journeys. Explore my portfolio to witness the power of web animations in action,",
+        desc1: " As a frontend developer, I harness animations to create captivating, informative, and delightful online journeys. Explore my portfolio to witness the power of web animations in action, Web animations breathe life into digital experiences. They serve as functional tools, guiding users, enhancing engagement, and simplifying navigation.",
+        desc2: "Web animation is a creative and dynamic aspect of web design and development, adding life and interactivity to websites. When used thoughtfully and judiciously, it can significantly enhance the user experience and leave a memorable impression. To prioritizes the user experience, performance optimization, and SEO benefits. I cater to the multi-device world we live in, ensuring my projects is accessible and engaging to a wide audience, from desktop users to mobile visitors."
     },
     {
         id: 4,

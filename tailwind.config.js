@@ -16,3 +16,6 @@ module.exports = {
   },
   plugins: [require("@shrutibalasa/tailwind-grid-auto-fit")],
 };
+
+
+// 0F1B32 0F1B26

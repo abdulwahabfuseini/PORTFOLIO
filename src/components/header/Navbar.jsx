@@ -24,7 +24,7 @@ const Navbar = () => {
         className="flex items-center justify-between mx-auto max-w-7xl"
       >
         <Link href="/">
-          <h1 className="cursor-pointer sm:text-2xl text-xl">FUSEINI ABDUL WAHAB</h1>
+          <h1 className="cursor-pointer sm:text-xl text-lg">FUSEINI ABDUL WAHAB</h1>
         </Link>
         <ul className="items-center hidden lg:flex gap-x-10">
           {navigate.map((navLink) => (

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const ProjectCard = ({ project }) => {
   return (
-    <div className="relative overflow-hidden border-2 rounded-lg group">
+    <div className="relative overflow-hidden group bg-background p-1.5">
       <Image
         width={800}
         height={800}
@@ -13,7 +13,7 @@ const ProjectCard = ({ project }) => {
         className="h-52 sm:h-60 hover:scale-110"
         draggable="false"
       />
-      <div className="p-3 bg-background">
+      <div className="py-3 px-2 h-full pb-6">
         <h1 className="py-2 text-center text-2xl">{project?.projectName}</h1>
         <p className="text-lg break-word">{project?.desc}</p>
       </div>
