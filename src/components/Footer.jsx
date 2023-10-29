@@ -17,7 +17,6 @@ const Footer = () => {
             <FaRegEnvelope />
             <a href="mailto:abdulwahabfuseini78@gmail.com">abdulwahabfuseini78@gmail.com</a>
           </div>
-       
       </div>
     </div>
   </div>
