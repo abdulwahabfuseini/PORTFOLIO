@@ -37,7 +37,7 @@ export const PortFolio = [
     imgUrl: "pro4.png",
     projectName: "Netflix Clone",
     desc: "Netflix official website clone created with react.js, tailwindcss, material ui and ant design",
-    link: " https://movie-zone-a0bc4.web.app",
+    link: " https://net-flix-4e2b0.web.app/",
     connect: "link.png",
   },
 ];
