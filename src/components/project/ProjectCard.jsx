@@ -1,35 +1,54 @@
 import Image from "next/image";
-
+import { FaEye, FaGithub } from "react-icons/fa";
 
 const ProjectCard = ({ project }) => {
   return (
-    <div className="relative overflow-hidden group bg-background p-1.5">
-      <Image
-        width={800}
-        height={800}
-        src={`/images/${project?.imgUrl}`}
-        alt="project"
-        quality={100}
-        className="h-52 sm:h-60 hover:scale-110"
-        draggable="false"
-      />
-      <div className="py-3 px-2 h-full pb-6">
-        <h1 className="py-2 text-center text-2xl">{project?.projectName}</h1>
-        <p className="text-lg break-word">{project?.desc}</p>
+    <div className="relative overflow-hidden  bg-background p-1.5 rounded">
+      <div className="flex items-center justify-between py-2">
+        <div className="flex items-center gap-2">
+          <FaEye />
+          <a href={project?.link} target="_blank" className="text-sm">
+            View Demo
+          </a>
+        </div>
+        <div className="flex items-center gap-2">
+          <a href={project?.code} target="_blank" className="text-sm">
+            View Code
+          </a>
+          <FaGithub />
+        </div>
       </div>
-      <div className="absolute top-0 left-0 right-0 hidden w-full h-full py-20 group-hover:block bg-background bg-opacity-90">
-        <a href={project?.link} target="_blank" rel="noopener noreferrer"className="grid gap-4 place-items-center">
-          <Image
-            width={80}
-            height={80}
-            src={`/images/${project?.connect}`}
-            alt="link"
-            draggable="false"
-          />
-          <h1 className="py-2 text-2xl">{project?.projectName}</h1>
-          <span className="text-xl"> {project?.link}</span>
-        </a>
+      <div className="group relative">
+        <Image
+          width={800}
+          height={800}
+          src={`/images/${project?.imgUrl}`}
+          alt="project"
+          quality={100}
+          className="h-52 sm:h-60"
+          draggable="false"
+        />
+        <div className="absolute top-0 left-0 right-0 hidden w-full h-full py-20 group-hover:block bg-background bg-opacity-90">
+          <a
+            href={project?.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="grid gap-1 cursor-pointer place-items-center text-center"
+          >
+            <Image
+              width={40}
+              height={40}
+              src={`/images/${project?.connect}`}
+              alt="link"
+              draggable="false"
+            />
+            <h1>{project?.projectName}</h1>
+            <span> {project?.link}</span>
+          </a>
+        </div>
       </div>
+      <h1 className="text-xl text-center py-2">{project?.projectName}</h1>
+     
     </div>
   );
 };
