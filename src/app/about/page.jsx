@@ -9,7 +9,7 @@ export const metadata = {
 const About = () => {
   return (
     <div className="relative grid w-full h-full px-2 mx-auto py-14 sm:px-4 max-w-7xl">
-      <HeadTitle title="About Me" text="About"/>
+      <HeadTitle title="About Me" text="biography"/>
       <AboutMe />
     </div>
   );

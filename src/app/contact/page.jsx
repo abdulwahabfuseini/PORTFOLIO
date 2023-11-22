@@ -10,7 +10,7 @@ export const metadata = {
 const Contact = () => {
   return (
     <div className="grid w-full h-full px-3 py-12 mx-auto lg:py-20 max-w-7xl">
-      <HeadTitle title="Contact Me" text="Contact" />
+      <HeadTitle title="Contact Me" text="connect" />
       <p className="pt-4 text-xl text-center sm:text-3xl">
         Love to hear from you, Get in touch
       </p>

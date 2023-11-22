@@ -2,12 +2,12 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="w-full px-4 py-6 border-t-2 bg-gray-50">
+    <div className="w-full px-4 py-6 border-t-2 bg-gray-50 shadow-indigo-500/20">
       <div className="flex flex-wrap justify-between mx-auto sm:px-2 sm:items-center max-w-7xl gap-y-4">
-        <h1 className="gap-3 text-lg leading-10 sm:flex">
+        <p className="gap-3 text-xl leading-10 sm:flex">
           &copy; 2023 All Right Reserved <br className="sm:hidden" />{" "}
           <span className="hidden sm:block">|</span> FUSEINI ABDUL WAHAB
-        </h1>
+        </p>
         <div className="flex flex-col gap-4 text-lg sm:text-xl sm:flex-row">
           <div className="flex items-center gap-2">
             <Image

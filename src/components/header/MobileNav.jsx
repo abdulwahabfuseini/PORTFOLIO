@@ -38,7 +38,7 @@ const MobileNav = () => {
         animate={openNav ? "visible" : "hidden"}
         className={`${
           openNav ? "left-0" : "left-full"
-        } fixed top-16 grid w-full text-background transition-all duration-500 bg-white shadow-lg`}
+        } fixed top-16 grid w-full text-background transition-all duration-500 bg-white shadow-lg shadow-indigo-500/20`}
       >
         {navigate.map((navLink) => (
           <li key={navLink.id} className="font-semibold cursor-pointer">

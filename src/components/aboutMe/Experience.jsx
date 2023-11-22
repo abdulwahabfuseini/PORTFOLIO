@@ -15,7 +15,7 @@ const Experience = () => {
             <div>
               <h1 className="text-lg sm:text-xl">{experience?.name}</h1>
               <h3 className="py-1.5">{experience?.role}</h3>
-              <h3 className="text-sm text-gray-600">{experience?.date}</h3>
+              <h3 className="text-sm text-gray-500">{experience?.date}</h3>
             </div>
             <ul className="px-5 py-3 leading-8 list-disc sm:px-10">
               {experience.duties.map((item) => (

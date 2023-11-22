@@ -6,10 +6,10 @@ import Link from "next/link";
 
 const ServiceCard = ({ item }) => {
   return (
-    <div className="border rounded-lg shadow-lg shadow-indigo-500/20">
+    <div className="border rounded shadow-lg shadow-indigo-500/20">
       <Link href={`/services/${item.title}`}>
         <div>
-          <div className="relative w-full h-48 sm:h-52 lg:h-60">
+          <div className="relative w-full h-48 bg-gray-50 sm:h-52 lg:h-60">
             <Image
               src={`/gif/${item.icon}`}
               alt="service"
