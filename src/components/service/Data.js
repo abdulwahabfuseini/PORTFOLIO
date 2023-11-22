@@ -27,7 +27,7 @@ export const service = [
     {
         id: 4,
         icon: "animation.gif",
-        title: "Animation  and Interactive",
+        title: "Animation & Interactive",
         desc: " As a frontend developer, I harness animations to create captivating, informative, and delightful online journeys. Explore my portfolio to witness the power of web animations in action,",
         desc1: " As a frontend developer, I harness animations to create captivating, informative, and delightful online journeys. Explore my portfolio to witness the power of web animations in action, Web animations breathe life into digital experiences. They serve as functional tools, guiding users, enhancing engagement, and simplifying navigation.",
         desc2: "Web animation is a creative and dynamic aspect of web design and development, adding life and interactivity to websites. When used thoughtfully and judiciously, it can significantly enhance the user experience and leave a memorable impression. To prioritizes the user experience, performance optimization, and SEO benefits. I cater to the multi-device world we live in, ensuring my projects is accessible and engaging to a wide audience, from desktop users to mobile visitors."

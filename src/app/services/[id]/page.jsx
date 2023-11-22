@@ -8,9 +8,9 @@ const SinglePost = ({ params }) => {
   const title = decodeURIComponent(params.id).replace(/-/g, ' ');
   const data = service.find((data) => data.title.toLowerCase() === title.toLowerCase());
   return (
-    <div className="grid px-3 py-20 mx-auto sm:max-w-7xl sm:px-4">
+    <div className="grid px-3 py-10 mx-auto sm:py-20 sm:max-w-7xl sm:px-4">
       <HeadTitle title={data?.title} />
-      <div className="grid sm:py-2 sm:grid-cols-5 gap-y-14 sm:gap-x-10 place-items-center">
+      <div className="grid sm:py-2 sm:grid-cols-5 gap-y-10 sm:gap-x-10 place-items-center">
         <Image
           src={`/gif/${data.icon}`}
           alt="service"
