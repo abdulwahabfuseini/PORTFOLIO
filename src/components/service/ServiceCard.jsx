@@ -6,28 +6,30 @@ import Link from "next/link";
 
 const ServiceCard = ({ item }) => {
   return (
-    <div>
+    <div className="border rounded-lg shadow-lg shadow-indigo-500/20">
       <Link href={`/services/${item.title}`}>
-        <div c className="flex flex-col items-center py-4 px-3 bg-background bg-opacity-70 rounded">
-          <Image
-            src={`/SVG/${item.icon}`}
-            alt="service"
-            width={80}
-            height={80}
-            className="object-contain h-20"
-            draggable="false"
-          />
-          <h1 className="py-3 text-2xl">{item.title}</h1>
-          <Typography.Paragraph
-            className="text-lg text-white break-word"
-            ellipsis={{
-              rows: 3,
-              expandable: true,
-              symbol: "Read More",
-            }}
-          >
-            {item.desc}
-          </Typography.Paragraph>
+        <div>
+          <div className="relative w-full h-48 sm:h-52 lg:h-60">
+            <Image
+              src={`/gif/${item.icon}`}
+              alt="service"
+              fill
+              draggable="false"
+            />
+          </div>
+          <div className="px-3">
+            <h1 className="py-2 text-2xl font-semibold text-center">{item.title}</h1>
+            <Typography.Paragraph
+              className="text-lg break-word"
+              ellipsis={{
+                rows: 3,
+                expandable: true,
+                symbol: "Read More",
+              }}
+            >
+              {item.desc}
+            </Typography.Paragraph>
+          </div>
         </div>
       </Link>
     </div>

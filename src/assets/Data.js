@@ -16,7 +16,7 @@ export const connect = [
   {
     id: 3,
     icon: "twitter.png",
-    color: "gray",
+    color: "black",
     link: "https://twitter.com/Fendi_Bosslyn89",
     title: "Fendi_Bosslyn89",
   },
@@ -29,8 +29,8 @@ export const connect = [
   },
   {
     id: 5,
-    icon: "githubsvg.png",
-    color: "gray",
+    icon: "github.png",
+    color: "black",
     link: "https://github.com/abdulwahabfuseini?tab=repositories",
     title: "abdulwahabfuseini",
   },

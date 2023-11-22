@@ -9,18 +9,18 @@ import Social from './Social'
 
 const Hero = () => {
   const [text] = useTypewriter({
-    words: ["Frontend Developer"],
+    words: ["Frontend Web Developer"],
     loop: {},
     typeSpeed: 100,
     deleteSpeed: 50
   })
   return (
-    <div  className='grid w-full h-full px-3 pt-20 mx-auto mx-pt-40 lg:pt-20 max-w-7xl'>
+    <div  className='grid w-full h-full px-3 mx-auto sm:pt-20 lg:pt-20 max-w-7xl py-14'>
       <div className='grid sm:grid-cols-2 gap-y-12 sm:place-content-center place-items-center'>
         <div className='w-full space-y-4 '>
           <h1 className='pb-2 text-3xl lg:text-5xl'>Hello</h1>
           <span className='text-2xl lg:text-3xl'>I'm Fuseini Abdul Wahab,</span>
-          <h4 className='text-2xl lg:text-4xl'>A <span>{text}</span> <Cursor /></h4>
+          <h4 className='text-2xl lg:text-3xl'>A <span>{text}</span> <Cursor /></h4>
           <p className='w-full text-lg sm:text-xl sm:w-5/6 break-word'>I've designed web applications with user experience at the forefront, ensuring seamless navigation and intuitive interactions</p>
           <div className='flex items-center gap-4'>
           <Button url="/contact" text="Hire Me" />
@@ -28,7 +28,7 @@ const Hero = () => {
           </div>
         </div>
         <div>
-          <Image src="/images/front2.gif" alt="" width={600} height={100}   draggable="false" className='bounce'/>
+          <Image src="/gif/front.gif" alt="" width={600} height={100}   draggable="false" className='mb-10 bounce'/>
         </div>
       </div>
       <Social />

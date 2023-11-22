@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <div
       className={`${
-        sticky ? "fixed lg:hidden top-0 left-0 h-16 shadow-lg z-50 p-4 bg-background sm:px-6 text-white" : " h-20 p-4  sm:p-6"
+        sticky ? "fixed lg:hidden top-0 left-0 h-16 shadow-lg z-50 p-4 bg-white sm:px-6 text-background" : " h-20 p-4  sm:p-6 lg:shadow-sm"
       } w-full`}
     >
       <nav
@@ -24,11 +24,11 @@ const Navbar = () => {
         className="flex items-center justify-between mx-auto max-w-7xl"
       >
         <Link href="/">
-          <h1 className="cursor-pointer sm:text-xl text-lg">FUSEINI ABDUL WAHAB</h1>
+          <h1 className="text-lg font-semibold cursor-pointer sm:text-xl">FUSEINI ABDUL WAHAB</h1>
         </Link>
         <ul className="items-center hidden lg:flex gap-x-10">
           {navigate.map((navLink) => (
-            <li key={navLink.id} className="text-xl sm:text-2xl cursor-pointer">
+            <li key={navLink.id} className="text-xl font-semibold cursor-pointer hover:text-blue-700 sm:text-2xl">
               <Link href={navLink.path}>{navLink.display}</Link>
             </li>
           ))}

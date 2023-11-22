@@ -12,16 +12,14 @@ const Project = () => {
   };
 
   return (
-    <div className="grid w-full h-full px-4 py-10 mx-auto mb-20 max-w-7xl place-items-center">
-      <h1 className="text-4xl">Portfolio</h1>
-      <h3 className="py-3 text-4xl capitalize">latest Projects</h3>
-      <div className="grid grid-cols-2 gap-3 p-1 rounded-xl sm:grid-cols-4 sm:bg-white">
+    <div className="grid w-full h-full mb-20 place-items-center">
+      <div className="grid grid-cols-2 gap-3 p-1 sm:shadow-inner rounded-xl sm:grid-cols-4 sm:bg-gray-100">
         <button
           onClick={() => toggleButton(1)}
           className={
             toggleTab === 1
               ? "bg-blue-700 ring-white text-white rounded-lg text-xl shadow-lg ring-2 sm:ring-0 py-1.5 px-2"
-              : "bg-white sm:bg-transparent text-black rounded-lg py-1.5 px-2 text-lg"
+              : "bg-white shadow sm:shadow-none sm:bg-transparent text-black rounded-lg  p-2 text-lg"
           }
         >
           All Projects
@@ -31,7 +29,7 @@ const Project = () => {
           className={
             toggleTab === 2
               ? "bg-blue-700 ring-white text-white rounded-lg text-xl shadow-lg ring-2 sm:ring-0 py-1.5 px-2"
-              : "bg-white sm:bg-transparent text-black rounded-lg py-1.5 px-2 text-lg"
+              : "bg-white shadow sm:shadow-none sm:bg-transparent text-black rounded-lg  p-2 text-lg"
           }
         >
           Web Apps
@@ -41,7 +39,7 @@ const Project = () => {
           className={
             toggleTab === 3
               ? "bg-blue-700 ring-white text-white rounded-lg text-xl shadow-lg ring-2 sm:ring-0 py-1.5 px-2"
-              : "bg-white sm:bg-transparent text-black rounded-lg py-1.5 px-2 text-lg"
+              : "bg-white shadow sm:shadow-none sm:bg-transparent text-black rounded-lg  p-2 text-lg"
           }
         >
           E-commerce
@@ -51,7 +49,7 @@ const Project = () => {
           className={
             toggleTab === 4
               ? "bg-blue-700 ring-white text-white rounded-lg text-lg shadow-lg ring-2 sm:ring-0 py-1.5 px-2"
-              : "bg-white sm:bg-transparent text-black rounded-lg py-1.5 px-2 text-lg"
+              : "bg-white shadow sm:shadow-none sm:bg-transparent text-black rounded-lg  p-2 text-lg"
           }
         >
           Clone-Website

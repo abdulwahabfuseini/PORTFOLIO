@@ -2,7 +2,7 @@
 export const service = [
     {
         id: 1,
-        icon: "responsive.png",
+        icon: "web.gif",
         title: "Web Development",
         desc: "On my portfolio, I showcase my expertise in web development, emphasizing key skills and technologies. I highlight impactful projects, detailing my role project descriptions, challenges, and achievements.",
         desc1: "On my portfolio, I showcase my expertise in web development, emphasizing key skills and technologies. I highlight impactful projects, detailing my role, project descriptions, challenges, and achievements. My responsibilities, collaborative skills, and focus on web accessibility, responsive design, testing, and debugging are central to my approach.",
@@ -10,7 +10,7 @@ export const service = [
     },
     {
         id: 2,
-        icon: "webD.png",
+        icon: "skills.webp",
         title: "Web Application",
         desc: "I've designed web applications with user experience at the forefront, ensuring seamless navigation and intuitive interactions. Behind the scenes, robust backend systems handle data storage, security,",
         desc1: "I've designed web applications with user experience at the forefront, ensuring seamless navigation and intuitive interactions. Behind the scenes, robust backend systems handle data storage, security, and user management, making these apps not just visually appealing but also secure and efficient.",
@@ -18,7 +18,7 @@ export const service = [
     },
     {
         id: 3,
-        icon: "devices.png",
+        icon: "respo.gif",
         title: "Responsive Design",
         desc: "I make ensure my web application looks great and works well on various devices and screen sizes.  Some Key elements of  responsive design include adaptive layouts, fluid grids, flexible images, ",
         desc1: "I make ensure my web application looks great and works well on various devices and screen sizes. Some Key elements of responsive design include adaptive layouts, fluid grids, flexible images, and the use of media queries to apply different styles based on the device.",
@@ -26,7 +26,7 @@ export const service = [
     },
     {
         id: 4,
-        icon: "web.png",
+        icon: "animation.gif",
         title: "Animation  and Interactive",
         desc: " As a frontend developer, I harness animations to create captivating, informative, and delightful online journeys. Explore my portfolio to witness the power of web animations in action,",
         desc1: " As a frontend developer, I harness animations to create captivating, informative, and delightful online journeys. Explore my portfolio to witness the power of web animations in action, Web animations breathe life into digital experiences. They serve as functional tools, guiding users, enhancing engagement, and simplifying navigation.",
@@ -34,7 +34,7 @@ export const service = [
     },
     {
         id: 5,
-        icon: "uidesign.png",
+        icon: "apps.gif",
         title: "User Interface (UI) Design",
         desc: "I consider color schemes, typography, and layout to ensure that every element harmonizes with the project's identity Responsive and  user-friendly, my UI designs adapt seamlessly to various devices and screen sizes.",
         desc1: "I consider color schemes, typography, and layout to ensure that every element harmonizes with the project's identity. Responsive and user-friendly, my UI designs adapt seamlessly to various devices and screen sizes. This commitment to responsive design guarantees an engaging user experience, whether on a desktop, tablet, or smartphone."

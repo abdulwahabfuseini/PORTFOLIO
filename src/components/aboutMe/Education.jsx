@@ -7,14 +7,14 @@ import { FaClock, FaAward, FaSchool } from "react-icons/fa";
 const Education = () => {
   return (
     <div>
-      <h1 className="text-lg">EDUCATION & QUALIFICATION</h1>
-      <div className="py-6 grid gap-y-4">
+      <h1 className="text-xl font-semibold">EDUCATION & QUALIFICATION</h1>
+      <div className="grid py-6 gap-y-4">
         {qualification.map((education) => (
           <div
             key={education.id}
-            className="grid gap-y-2  border-2 p-1 sm:p-2 rounded-xl"
+            className="grid py-1.5 px-2 sm:px-4 shadow-md shadow-indigo-500/20 border-gray-50 gap-y-2 sm:py-2 rounded-xl"
           >
-            <div className="flex items-center  gap-x-4 sm:gap-x-6">
+            <div className="flex items-center gap-x-4 sm:gap-x-6 ">
               <Image
                 src="/SVG/calendar.png"
                 alt=""
@@ -24,7 +24,7 @@ const Education = () => {
               />
               <p className="text-lg">{education.year}</p>
             </div>
-            <div className="flex items-center  gap-x-3 sm:gap-x-6">
+            <div className="flex items-center gap-x-3 sm:gap-x-6">
               <Image
                 src="/SVG/school.png"
                 alt=""

@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
       <Head>
         <meta name="viewport" content="width=device-width, user-scalable=no" />
       </Head>
-      <body className="relative w-full h-full text-white bg-black">
+      <body className="relative w-full h-full text-black bg-white">
         <Loading>
           <Navbar />
           <div className="mb-16 md:mb-80 lg:mb-28">{children}</div>

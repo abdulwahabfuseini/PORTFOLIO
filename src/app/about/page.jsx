@@ -1,3 +1,4 @@
+import HeadTitle from "@/components/HeadTitle";
 import AboutMe from "@/components/aboutMe/AboutMe";
 
 export const metadata = {
@@ -7,7 +8,8 @@ export const metadata = {
 
 const About = () => {
   return (
-    <div className="relative grid w-full h-full px-2 py-20 mx-auto sm:px-4 max-w-7xl">
+    <div className="relative grid w-full h-full px-2 mx-auto py-14 sm:px-4 max-w-7xl">
+      <HeadTitle title="About Me" text="About"/>
       <AboutMe />
     </div>
   );
