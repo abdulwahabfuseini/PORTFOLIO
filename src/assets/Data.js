@@ -86,26 +86,31 @@ export const skill = [
   },
   {
     id: 9,
+    icon: "prisma.png",
+    title: "PRISMA",
+  },
+  {
+    id: 10,
     icon: "mongodb.png",
     title: "MONGODB",
   },
   {
-    id: 10,
+    id: 11,
     icon: "firebase.png",
     title: "FIREBASE",
   },
   {
-    id: 11,
+    id: 12,
     icon: "postman.png",
     title: "POSTMAN",
   },
   {
-    id: 12,
+    id: 13,
     icon: "git.png",
     title: "GIT",
   },
   {
-    id: 13,
+    id: 14,
     icon: "github.png",
     title: "GITHUB",
   },

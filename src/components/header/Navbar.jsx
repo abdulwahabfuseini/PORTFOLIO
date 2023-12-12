@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <div
       className={`${
-        sticky ? "fixed lg:hidden top-0 left-0 h-16 shadow-lg z-50 p-4 bg-white sm:px-6 text-background" : " h-20 p-4  sm:p-6 lg:shadow-sm"
+        sticky ? "fixed lg:hidden top-0 left-0 h-16 shadow-lg shadow-indigo-500/20 z-50 p-4 bg-white sm:px-6 text-background" : " h-20 p-4  sm:p-6 lg:shadow-sm"
       } w-full`}
     >
       <nav
