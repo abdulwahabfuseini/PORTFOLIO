@@ -1,21 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300&family=Mohave&family=Saira+Condensed&family=Zilla+Slab&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300&family=Mohave&family=Saira+Condensed&family=Zilla+Slab&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
 @layer base {
-  h2, h4,  h5, h6 {
-    font-family: 'Frank Ruhl Libre', serif;
+  h2,
+  h4,
+  h5,
+  h6 {
+    font-family: "Frank Ruhl Libre", serif;
   }
 
-  header, p, li{
-    font-family: 'Mohave', sans-serif;
+  header,
+  p,
+  li {
+    font-family: "Mohave", sans-serif;
   }
 
-  h1, h3, a, button, span{
-    font-family: 'Saira Condensed', sans-serif;
+  h1,
+  h3,
+  a,
+  button,
+  span {
+    font-family: "Saira Condensed", sans-serif;
   }
 
   .flexBox {
@@ -33,20 +41,18 @@
 }
 
 
-.bounce{
-    animation: movement 3s infinite 1s ease-in-out;
+
+.bounce {
+  animation: movement 3s infinite 1s ease-in-out;
 }
-@keyframes movement{
-    0%{
-        transform: translateY(0);
-    }
-    60%{
-        transform: translateY(10px);
-    }
-    100%{
-        transform: translateY(15px);
-    }
+@keyframes movement {
+  0% {
+    transform: translateY(0);
+  }
+  60% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(15px);
+  }
 }
-
-
-
