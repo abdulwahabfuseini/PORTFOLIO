@@ -6,7 +6,7 @@ const Background = () => {
     <div className="px-2">
       <div>
         <h1 className="text-3xl">Profile</h1>
-        <p className="py-2 text-lg sm:text-xl break-word ">
+        <p className="py-2 text-lg break-word ">
           I am a highly skilled and creative web developer in designing and
           building interactive and user-friendly websites and web applications.
           I am passionate about staying up-to-date with the latest web
@@ -19,7 +19,7 @@ const Background = () => {
       </div>
       <div className="pt-6">
         <h1 className="text-3xl">Objectives</h1>
-        <p className="py-2 text-lg sm:text-xl break-word ">
+        <p className="py-2 text-lg break-word ">
           As a frontend developer, my objective is to learn and grow in a
           dynamic development environment. I aim to use my expertise in HTML,
           CSS, JavaScript to create exceptional user interfaces while gaining

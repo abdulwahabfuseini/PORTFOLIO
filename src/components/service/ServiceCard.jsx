@@ -18,7 +18,7 @@ const ServiceCard = ({ item }) => {
             />
           </div>
           <div className="px-3">
-            <h1 className="py-2 text-2xl font-semibold text-center">{item.title}</h1>
+            <h1 className="py-2 text-xl font-semibold text-center">{item.title}</h1>
             <Typography.Paragraph
               className="text-lg break-word"
               ellipsis={{

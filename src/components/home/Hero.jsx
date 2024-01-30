@@ -34,7 +34,7 @@ const Hero = () => {
           <h4 className="text-2xl lg:text-3xl">
             A <span>{text}</span> <Cursor />
           </h4>
-          <p className="w-full text-lg break sm:text-xl sm:w-5/6">
+          <p className="w-full text-lg break-words sm:w-5/6">
             I've designed web applications with user experience at the
             forefront, ensuring seamless navigation and intuitive interactions.
             I am currently seeking new opportunities to contribute my skills and

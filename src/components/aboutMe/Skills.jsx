@@ -11,7 +11,7 @@ const Skills = () => {
           skill.map(item => (
             <div key={item.id} className='grid p-2 cursor-pointer gap-y-6 place-items-center'>
               <Image src={`/images/${item.icon}`} alt="skill" width={80} height={10} className='object-contain w-14 sm:w-20 h-14'   draggable="false"/>
-              <h1 className='sm:text-lg'>{item.title}</h1>
+              <p className='sm:text-lg font-semibold'>{item.title}</p>
             </div>
           ))
         }

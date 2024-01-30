@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300&family=Mohave&family=Saira+Condensed&family=Zilla+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&family=Nanum+Gothic+Coding&family=PT+Serif&family=Playfair+Display&family=Slabo+27px&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -9,21 +9,21 @@
   h4,
   h5,
   h6 {
-    font-family: "Frank Ruhl Libre", serif;
+    font-family: "Slabo 27px", serif;
   }
 
   header,
   p,
+  span,
+  a,
+  button,
   li {
-    font-family: "Mohave", sans-serif;
+    font-family: "PT Serif", serif;
   }
 
   h1,
-  h3,
-  a,
-  button,
-  span {
-    font-family: "Saira Condensed", sans-serif;
+  h3 {
+    font-family: "Playfair Display", serif;
   }
 
   .flexBox {

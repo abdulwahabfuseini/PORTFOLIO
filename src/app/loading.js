@@ -15,9 +15,9 @@ const Loading = ({ children }) => {
   return (
     <div>
       {isLoading ? (
-        <div className="flex flex-col items-center justify-center w-full h-screen gap-4">
+        <div className="flex flex-col items-center justify-center w-full h-screen gap-6">
           <Image src="/gif/front.gif" alt="" width={150} height={150}   draggable="false" />
-          <h1 className="text-xl">Please Wait...</h1>
+          <h1 className="text-xl font-semibold">Please Wait ...</h1>
         </div>
       ) : (
         <div>{children}</div>

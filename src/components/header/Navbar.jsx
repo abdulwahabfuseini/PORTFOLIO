@@ -28,7 +28,7 @@ const Navbar = () => {
         </Link>
         <ul className="items-center hidden lg:flex gap-x-10">
           {navigate.map((navLink) => (
-            <li key={navLink.id} className="text-xl font-semibold cursor-pointer hover:text-blue-700 sm:text-2xl">
+            <li key={navLink.id} className="text-xl font-semibold cursor-pointer hover:text-blue-700">
               <Link href={navLink.path}>{navLink.display}</Link>
             </li>
           ))}

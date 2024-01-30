@@ -49,7 +49,7 @@ const ProjectCard = ({ project }) => {
           </a>
         </div>
       </div>
-      <h1 className="py-2 text-xl text-center">{project?.projectName}</h1>
+      <h1 className="py-2 text-xl text-center font-semibold">{project?.projectName}</h1>
      
     </div>
   );
