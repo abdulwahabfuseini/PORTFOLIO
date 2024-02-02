@@ -33,16 +33,22 @@ export const PortFolio = [
   },
   {
     id: 5,
+    imgUrl: "store.png",
+    projectName: "Groceries Store",
+    code: "https://github.com/abdulwahabfuseini/Groceries-Store",
+    link: "https://groceries-store-lovat.vercel.app/",
+    connect: "link.png",
+  },
+  {
+    id: 6,
     imgUrl: "pro2.png",
     projectName: "Mandem Store",
     code: "https://github.com/abdulwahabfuseini/Mandem-Store",
     link: "https://mandem-store-24ff1.web.app",
     connect: "link.png",
   },
-
- 
   {
-    id: 6,
+    id: 7,
     imgUrl: "pro5.png",
     projectName: "Fast Food",
     code: "https://github.com/abdulwahabfuseini/fast-food",

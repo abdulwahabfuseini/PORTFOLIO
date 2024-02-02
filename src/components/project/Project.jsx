@@ -76,7 +76,7 @@ const Project = () => {
       <div className="w-full">
         {toggleTab === 3 && (
           <div className="grid w-full gap-4 py-10 sm:grid-cols-2 lg:grid-cols-3">
-            {PortFolio.slice(4, 6).map((project) => (
+            {PortFolio.slice(4, 7).map((project) => (
               <ProjectCard key={project.id} project={project} />
             ))}
           </div>
