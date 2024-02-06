@@ -5,13 +5,13 @@ import React from 'react'
 const Skills = () => {
   return (
     <div>
-      <h1 className='text-2xl sm:text-3xl'>Languages and Tools</h1>
+      <h1 className='text-2xl sm:text-3xl'>Languages & Tools</h1>
       <div className='flex flex-wrap items-center justify-center gap-2 py-10 sm:justify-start'>
         {
           skill.map(item => (
             <div key={item.id} className='grid p-2 cursor-pointer gap-y-6 place-items-center'>
               <Image src={`/images/${item.icon}`} alt="skill" width={80} height={10} className='object-contain w-14 sm:w-20 h-14'   draggable="false"/>
-              <p className='sm:text-lg font-semibold'>{item.title}</p>
+              <p className='font-semibold sm:text-lg'>{item.title}</p>
             </div>
           ))
         }

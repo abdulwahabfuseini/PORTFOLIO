@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
       <body className="relative w-full h-full text-black bg-white">
         <Loading>
           <Navbar />
-          <div className="mb-16 md:mb-80 lg:mb-28">{children}</div>
+          <div className="mb-16 md:mb-28">{children}</div>
           <Footer />
         </Loading>
       </body>

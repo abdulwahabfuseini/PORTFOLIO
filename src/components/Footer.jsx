@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="w-full px-4 py-6 border-t-2 bg-gray-50 shadow-indigo-500/20">
+    <div className="w-full px-4 py-6 border-t-2 bg-gray-50">
       <div className="flex flex-wrap justify-between mx-auto sm:px-2 sm:items-center max-w-7xl gap-y-4">
         <p className="gap-3 text-xl leading-10 sm:flex">
           &copy; 2023 All Right Reserved <br className="sm:hidden" />{" "}

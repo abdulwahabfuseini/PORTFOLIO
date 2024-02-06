@@ -45,7 +45,7 @@ const MobileNav = () => {
             <Link
               href={navLink.path}
               onClick={() => setOpenNav(false)}
-              className="flex items-center justify-between w-full px-4 sm:px-6 py-3 text-lg uppercase border-t border-b"
+              className="flex items-center justify-between w-full px-4 py-3 text-lg uppercase border-t border-b sm:px-6 md:py-5 md:text-xl"
             >
               <span className=" hover:underline">{navLink.display}</span>{" "}
               <span>

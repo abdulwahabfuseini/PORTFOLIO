@@ -9,7 +9,7 @@ export const metadata = {
 
 const Contact = () => {
   return (
-    <div className="grid w-full h-full px-3 py-12 mx-auto lg:py-20 max-w-7xl">
+    <div className="grid w-full h-full px-3 py-6 mx-auto sm:py-8 lg:py-20 max-w-7xl sm:px-4">
       <HeadTitle title="Contact Me" text="connect" />
       <p className="pt-4 text-xl text-center sm:text-3xl">
         Love to hear from you, Get in touch
