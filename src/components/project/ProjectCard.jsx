@@ -20,13 +20,13 @@ const ProjectCard = ({ project }) => {
       </div>
       <div className="relative group">
         <Image
-          width={800}
-          height={800}
+          width={500}
+          height={500}
           objectFit="contain"
           src={`/images/${project?.imgUrl}`}
           alt="project"
           quality={100}
-          className="object-contai h-52 sm:h-64"
+          className="object-contai h-52 sm:h-56"
           draggable="false"
         />
         <div className="absolute top-0 left-0 right-0 hidden w-full h-full py-12 text-white sm:py-16 group-hover:block bg-background bg-opacity-90">

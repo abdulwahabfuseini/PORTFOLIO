@@ -133,7 +133,7 @@ export const qualification = [
     year: "2015 - 2018",
     institution: "TAKORADI SENIOR HIGH SCHOOL",
     certicate:
-      "West Africa Senior Secondary School Certificate Examination (WASSCE)",
+      "West Africa Senior School Certificate Examination (WASSCE)",
   },
   {
     id: 3,

@@ -8,12 +8,14 @@ import Button from "../Button";
 import Social from "./Social";
 
 const Hero = () => {
+  
   const [text] = useTypewriter({
     words: ["Frontend Web Developer"],
     loop: {},
     typeSpeed: 100,
     deleteSpeed: 50,
   });
+
   return (
     <div className="grid w-full h-full px-3 py-10 mx-auto lg:pt-20 max-w-7xl sm:px-6 lg:px-4">
       <div className="grid lg:grid-cols-2 gap-y-12 sm:place-content-center place-items-center">

@@ -17,6 +17,14 @@ export const PortFolio = [
   },
   {
     id: 3,
+    imgUrl: "pro8.png",
+    projectName: "Quiz App",
+    code: "https://github.com/abdulwahabfuseini/Quiz-App",
+    link: "https://quiz-app-gray-rho-26.vercel.app/",
+    connect: "link.png",
+  },
+  {
+    id: 3,
     imgUrl: "pro7.png",
     projectName: "Revive Physiotherapy - Ghana",
     code: "https://github.com/abdulwahabfuseini/Revive-Physiotherapy-Ghana",
